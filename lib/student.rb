@@ -6,6 +6,11 @@ class Student
 
   end
 
+  def learn(knowledge)
+    @knowledge << knowledge
+
+  end
+
   def first_name(fName)
     @first_name = fName
 
