@@ -8,7 +8,7 @@ class Student
 
   def learn(knowledge)
     @knowledge << knowledge
-
+    @knowledge
   end
 
   def first_name(fName)
