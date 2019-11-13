@@ -11,6 +11,10 @@ class Student < User
     @knowledge
   end
 
+  def knowledge
+   @knowledge
+  end
+
   def first_name(fName)
     @first_name = fName
 
