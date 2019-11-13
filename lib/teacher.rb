@@ -1,4 +1,4 @@
-class Teacher
+class Teacher < User
 
   def first_name(fName)
     @first_name = fName
